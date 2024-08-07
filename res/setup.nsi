@@ -11,7 +11,7 @@
 ####################################################################
 # File Info
 
-!define PRODUCT_NAME "RustDesk"
+!define PRODUCT_NAME "RealControl"
 !define PRODUCT_DESCRIPTION "Installer for ${PRODUCT_NAME}"
 !define COPYRIGHT "Copyright © 2021"
 !define VERSION "1.1.6"
@@ -162,7 +162,7 @@ SectionEnd
 # Functions
 
 Function .onInit
-  # RustDesk is 64-bit only
+  # RealControl is 64-bit only
   ${IfNot} ${RunningX64}
     MessageBox MB_ICONSTOP "${PRODUCT_NAME} is 64-bit only!"
     Quit

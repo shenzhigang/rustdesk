@@ -3,9 +3,9 @@
 set -x
 
 #
-# Script to build F-Droid release of RustDesk
+# Script to build F-Droid release of RealControl
 #
-# Copyright (C) 2024, The RustDesk Authors
+# Copyright (C) 2024, The RealControl Authors
 #               2024, Vasyl Gello <vasek.gello@gmail.com>
 #
 
@@ -271,7 +271,7 @@ prebuild)
 		fi
 	fi
 
-	# Patch the RustDesk sources
+	# Patch the RealControl sources
 
 	git apply res/fdroid/patches/*.patch
 

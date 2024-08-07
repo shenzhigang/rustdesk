@@ -22,10 +22,10 @@
         <true />
         <key>ProgramArguments</key>
         <array>
-            <string>/Applications/RustDesk.app/Contents/MacOS/RustDesk</string>
+            <string>/Applications/RealControl.app/Contents/MacOS/RealControl</string>
             <string>--server</string>
         </array>
         <key>WorkingDirectory</key>
-        <string>/Applications/RustDesk.app/Contents/MacOS/</string>
+        <string>/Applications/RealControl.app/Contents/MacOS/</string>
     </dict>
 </plist>
