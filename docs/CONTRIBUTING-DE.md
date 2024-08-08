@@ -34,7 +34,7 @@ werden, dass Beitr�ge zum gleichen Thema doppelt bearbeitet werden.
 - Wenn Ihr Patch nicht begutachtet wird oder Sie eine bestimmte Person zur
   Begutachtung ben�tigen, k�nnen Sie einem Gutachter mit @ antworten und um eine
   Begutachtung des Pull Requests oder einen Kommentar bitten. Sie k�nnen auch
-  per [E-Mail](mailto:info@rustdesk.com) um eine Begutachtung bitten.
+  per [E-Mail](mailto:info@realcontrol.com) um eine Begutachtung bitten.
 
 - F�gen Sie Tests hinzu, die sich auf den behobenen Fehler oder die neue
   Funktion beziehen.
