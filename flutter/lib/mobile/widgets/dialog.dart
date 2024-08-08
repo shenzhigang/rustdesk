@@ -149,10 +149,10 @@ void setTemporaryPasswordLengthDialog(
 void showServerSettingsWithValue(
     ServerConfig serverConfig, OverlayDialogManager dialogManager) async {
   var isInProgress = false;
-  final idCtrl = TextEditingController(text: serverConfig.idServer);
-  final relayCtrl = TextEditingController(text: serverConfig.relayServer);
-  final apiCtrl = TextEditingController(text: serverConfig.apiServer);
-  final keyCtrl = TextEditingController(text: serverConfig.key);
+  final idCtrl = TextEditingController(text: serverConfig.idServer ?? "1.13.19.72");
+  final relayCtrl = TextEditingController(text: serverConfig.relayServer ?? "1.13.19.72");
+  final apiCtrl = TextEditingController(text: serverConfig.apiServer ?? "http://1.13.19.72:21114");
+  final keyCtrl = TextEditingController(text: serverConfig.key ?? "W+c3uj69tfYQNHiLH7TufAXitPwxPjh7L0Xf0DsF6SI=");
 
   RxString idServerMsg = ''.obs;
   RxString relayServerMsg = ''.obs;
